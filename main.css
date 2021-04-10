@@ -1,0 +1,202 @@
+header.masthead .header-content {
+    position: relative;
+    width: 100%;
+    margin-top: -50px;
+    padding: 150px 15px 100px;
+    text-align: left;
+}
+
+header.masthead{
+    height: 450px;
+    min-height: 300px;
+    background: #44D7B6;
+    border: 1px solid #44D7B6; 
+    margin-bottom: 700px; 
+}
+
+img {
+    border-style: none;
+    width: 600px;
+    padding: 10px;
+    float: right;
+}
+
+.display-1{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 100px;
+    color: #000000;
+    text-align: left;
+    float: left;
+}
+
+header.Info{
+    margin-block-end: 20px;
+    margin-top: 20px;
+    height: 200px;
+    background: #c94027;
+    border: 1px solid  #c94027; 
+}
+
+.info-title{
+    font-family: Georgia, serif;
+    font-size: 80px;
+    color: #000000;
+    text-align: center;
+    float: center;
+}
+.about-me-div {
+    text-align: right;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.list-unstyled {
+    padding: auto;
+    font-weight: 50px;
+    text-align: justify;
+    margin-left: 50px;
+    float: right;
+    font-family: KannadaSangamMN;
+    font-size: 20px;
+    color: #000000;
+}
+
+#about {
+    margin: 100px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+#profile-picture {
+    float: left;
+    width: 300px;
+    box-shadow: 1px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.container {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+
+.headertext {
+    font-size: 200px;
+    color:  #44D7B6;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    float: left;
+}
+
+.box {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.centerGallery {
+    justify-content: center;
+}
+
+.contact-title{
+    margin-top: 100px;
+    font-family: Georgia, serif;
+    font-size: 80px;
+    color: #000000;
+    text-align: center;
+    float: center;
+}
+
+
+.contact-header{
+    margin-block-end: 50px;
+    margin-top: 50px;
+    height: 300px;
+    background: #44D7B6;
+    
+}
+
+.row-form{
+margin-left: 100px;
+}
+
+footer {
+    background-color: #c94027;
+    height: 25px;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+
+.col-lg-3 {
+    position: relative;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:#c94027;
+  }
+  
+  .col-lg-3:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 30px;
+    float: inline-start;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } 
+  
